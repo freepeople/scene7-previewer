@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+<head>
+	<title>DC Image Maker</title>
+	<link href="main.css" rel="stylesheet" />
+	<meta name="robots" content="noindex, nofollow">
+</head>
+<body>
+	<div class="shell">
+		<h1>DC Image Maker</h1>
+		<div class="content--form">
+			<form>
+				<fieldset>
+					<label>Style Number:</label>
+					<input type="text" id="styleNumber" placeholder="34412296" />
+				</fieldset>
+				<fieldset>
+					<label>Color Code:</label>
+					<input type="text" id="colorCode" placeholder="040" />
+				</fieldset>
+				<fieldset>
+					<label>Suffix:</label>
+					<input type="text" id="suffix" value="a" />
+				</fieldset>
+				<div class="buttons">
+					<button id="createImageBtn">Create Image</button>
+				</div>
+			</form>
+		</div>
+		<div id="image--target" class="content--image"></div>
+	</div>
+	<script src="main.js"></script>
+</body>
+</html>
