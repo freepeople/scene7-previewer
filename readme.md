@@ -1,4 +1,4 @@
-#DC Image Maker
+#Scene7 Previewer
 
 Simple web form that allows DC employees to preview various Scene7 image formats.
 
